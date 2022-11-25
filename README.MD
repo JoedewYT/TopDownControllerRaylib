@@ -9,7 +9,7 @@ then just copy this copy this code snippet and adjust to your needs
 
     TopDownController player;
 
-    player.x = WinWidth / 2;
-    player.y = WinHeight / 2;
+    player.x = GetScreenWidth() / 2;
+    player.y = GetScreenHeight() / 2;
     player.radius = 25;
     player.speed = 200;
